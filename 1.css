@@ -1,0 +1,60 @@
+.box {
+    display:inline-block;
+}
+
+.event {
+  margin: 100px;
+}
+
+
+.box1 {
+    display:inline-block;
+}
+
+ .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(5px, auto);
+  }
+  .box {
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+  }
+  .box1 { 
+    margin: 20px;
+    grid-column: 1;
+    grid-row: 2 / 3;
+  }
+
+  .banner {
+    width: 100%;
+  }
+  
+  .footer {
+    width: 100%;
+  }
+
+
+
+
+
+  html,body{margin: 0;;top: 0;left: 0;overflow-x: hidden;}
+  body {width: 100%;text-align: center;background-color: #F5F1E9;}  
+  .clearfix {min-height: 1px;}
+  .clearfix:after {content: ".";display: block; clear: both;height: 0;visibility: hidden;}
+  * html .clearfix {height: 1px;}
+  .wrap {width: 1160px;margin: 0 auto;position: relative;}
+  #menu {width: 100%;height: 100%;background-color: #FFF;position: relative;}
+  .logo-design,.ad-design{margin: 60px 5%;}
+  .bgc,.bga{background: #fff;width: 348px;height: 189px;;display: inline-block;border-radius: 15px;margin: 0 20px 40px;}
+  .bgc img,.bga img{width: 100%;border-radius: 15px 15px 20px 20px}
+  .logo-design,.ad-design p{padding: auto;}
+  .logo-design h3 {background: #322863;color: #fff;font-size: 1.0rem;line-height: 3.3;font-weight: bold;}
+  footer{background: black;color: #fff;font-size: 12px;padding: 20px;}
+  .phonecall,.line{position: fixed;font-size: 16px;line-height: 40px;padding: 25px 0;left: 0;writing-mode: vertical-lr;}
+  .phonecall{background: #de4830;top: 300px;border-radius: 0 50px 0px 0px;}
+  .line{background: #1ed053;top: 414px;border-radius: 0 0 50px 0px;}
+  .phonecall:hover,.line:hover{background: #e67f21;width: 55px;padding: 25px 10px;}
+  .ad-design .bga{width: initial;}  
